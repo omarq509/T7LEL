@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 # =============================
 # تهيئة الصفحة + RTL
 # =============================
-st.set_page_config(page_title="📊 التحليل الأساسي | Buffett Score", layout="wide")
+st.set_page_config(page_title="📊 التحليل موقع عمر للتحليل الأساسي | Buffett Score", layout="wide")
 
 RTL_CSS = """
 <style>
