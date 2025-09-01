@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 # =============================
 # تهيئة الصفحة + RTL
 # =============================
-st.set_page_config(page_title="📊 التحليل موقع عمر للتحليل الأساسي | Buffett Score", layout="wide")
+st.set_page_config(page_title="📊 التحليل الأساسي | Buffett Score", layout="wide")
 
 RTL_CSS = """
 <style>
@@ -188,7 +188,7 @@ def load_company_data(ticker: str):
     }
 
 # =============================
-# حساب Buffett Score      
+# حساب Buffett Score
 # =============================
 def buffett_score(data: dict, mode: str = "TTM"):
     inc = data["inc_q"] if mode == "TTM" else data["inc_a"]
