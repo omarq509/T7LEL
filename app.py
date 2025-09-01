@@ -188,7 +188,7 @@ def load_company_data(ticker: str):
     }
 
 # =============================
-# حساب Buffett Score
+# حساب Buffett Score      
 # =============================
 def buffett_score(data: dict, mode: str = "TTM"):
     inc = data["inc_q"] if mode == "TTM" else data["inc_a"]
